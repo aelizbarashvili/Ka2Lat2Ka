@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/achiko/anaconda3/bin/python3.9
 
 File = '5_tr.txt'
 Marker = chr(0)
