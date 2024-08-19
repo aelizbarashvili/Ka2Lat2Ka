@@ -5,11 +5,12 @@
 –Reverted the translated file back to the original Georgian characters using a translation table (lat2kat) with the script lat2kat.py.
 –Similar to the transliteration script, it used parameters ”File” and ”Marker”for file path and symbol definition.
 
-2.Shell Command:
+2.Shell Command (ka2lat2ka.sed):
 –Introduced a sed command for transliteration and detransliteration.
 –Demonstrated the use of markers for identifying non-Georgian characters and translating between Georgian and Latin characters.
 –Showed the effectiveness of the shell commands in terms of processing speed, especially when handling larger files.
 
-3.Vim text editor:–Explored transliteration and detranslation processes using the vim text editor.
+3.Vim text editor (ka2lat2ka.vim):
+–Explored transliteration and detranslation processes using the vim text editor.
 –Leveraged Vim’s ex commands to eﬀiciently perform translation tasks.
 –Highlighted the advantage of Vim’s buffering mechanism for faster processing.
