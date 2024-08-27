@@ -1,8 +1,8 @@
 
 ### Variables:
 export Marker=$’\034’  # (Marker='\x0')
-export Ka='აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ'
-export Lat='abgdevzTiklmnopJrstufqRySCcZwWxjh'
+#export Ka='აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ'
+#export Lat='abgdevzTiklmnopJrstufqRySCcZwWxjh'
 
 
 ### Transliteration
