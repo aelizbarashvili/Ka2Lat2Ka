@@ -6,7 +6,7 @@ export Lat='abgdevzTiklmnopJrstufqRySCcZwWxjh'
 
 ### Transliteration
 ---------------------------
-sed -e "s/[a-zA-Z]*[a-zA-Z]/${Marker}&${Marker}/g" -e "y/$Ka/$Lat/" File > File_tr
+sed -e "s/[abgdevzTiklmnopJrstufqRySCcZwWxjh]*[abgdevzTiklmnopJrstufqRySCcZwWxjh]/${Marker}&${Marker}/g" -e "y/$Ka/$Lat/" File > File_tr
 
 
 ### Detransliteration
