@@ -5,7 +5,7 @@ export Marker=$'\03'  # (Marker=$'\034')
 
 ### Transliteration
 ---------------------------
-vi -c ":%s/[a-zTJRSCZW]*[a-zTJRSCZW]]/$Marker&$Marker/g" -c'%!sed "y/აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ/abgdevzTiklmnopJrstufqRySCcZwWxjh/"' -c':wq' File
+vim -c ":%s/[a-zTJRSCZW]*[a-zTJRSCZW]]/$Marker&$Marker/g" -c'%!sed "y/აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ/abgdevzTiklmnopJrstufqRySCcZwWxjh/"' -c':wq' File
 
 
 ### Detransliteration
