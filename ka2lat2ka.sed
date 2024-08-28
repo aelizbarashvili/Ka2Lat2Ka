@@ -1,5 +1,5 @@
 ### Variables:
-export Marker='\x0'  # (Marker=$’\034’)
+export Marker='\x0'  # Marker=$'\036' # Marker=$'\034'
 export Ka='აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ'
 export Lat='abgdevzTiklmnopJrstufqRySCcZwWxjh'
 
