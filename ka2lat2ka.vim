@@ -1,6 +1,6 @@
 
 ### Variables:
-export Marker=$'\03'  # (Marker=$'\034')
+export Marker=$'\036'  # (Marker=$'\034')
 
 
 ### Transliteration
