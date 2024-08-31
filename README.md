@@ -17,11 +17,11 @@ Here are Scripts and Tools for Transliteration and Detransliteration.
   - Low memory usage.
 
 * Sed Command (ka2lat2ka.sed):
-  – The a sed command is used for both transliteration and detransliteration.
-  – Sed gives best result in detransliteration.
+  - The a sed command is used for both transliteration and detransliteration.
+  - Sed gives best result in detransliteration.
   - Low memory usage.
 
 * Vim text editor (ka2lat2ka.vim):
-  – we explored transliteration and detranslation processes using the vim text editor.
-  – Vim’s buffer-based processing showed the fastest processing times for transliteration.
+  - we explored transliteration and detranslation processes using the vim text editor.
+  - Vim’s buffer-based processing showed the fastest processing times for transliteration.
   - In contrast, vim shows a significant increase in memory usage as file sizes grow, with sharper rises for larger files.
