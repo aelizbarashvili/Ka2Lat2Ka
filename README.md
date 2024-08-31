@@ -8,17 +8,20 @@ By mapping each Georgian character to a unique basic Latin equivalent and vice v
 Here are scripts to transliterate and detransliterate Georgian texts:
 
 1.Python scripts (ka2lat.py and lat2kat.py):
+
   – ka2lat.py script uses a custom translation table (ka2lat) for mapping Georgian to Latin characters.
   – Two parameters, "File" and "Marker" are used to specify the file path and to define symbol for isolating Latin segments.
   – Detransliteration is done the script lat2kat.py using a custom translation table (lat2kat).
   - Low memory usage.
 
 2.Shell Command (ka2lat2ka.sed):
-  – The a sed command is used for transliteration and detransliteration.
-  – Sed gives best result in detransliteration.
+
+  – The a sed command is used for transliteration and detransliteration;
+  – Sed gives best result in detransliteration;
   - Low memory usage.
 
 3.Vim text editor (ka2lat2ka.vim):
+
   – we explored transliteration and detranslation processes using the vim text editor.
   – Vim’s buffer-based processing showed the fastest processing times for transliteration.
   - In contrast, vim shows a significant increase in memory usage as file sizes grow, with sharper rises for larger files.
